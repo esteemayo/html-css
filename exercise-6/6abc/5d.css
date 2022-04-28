@@ -1,0 +1,43 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: inherit;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  line-height: 1.6;
+  color: #333;
+  padding: 1rem;
+}
+
+.apple-container {
+  font-family: Arial;
+  text-align: center;
+  width: 40rem;
+}
+
+.apple__header {
+  font-size: 2.8rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.apple__desc {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+}
+
+.apple__link {
+  font-size: 1.6rem;
+  color: rgb(0, 0, 255);
+}

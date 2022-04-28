@@ -1,0 +1,48 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: inherit;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  line-height: 1.6;
+  color: #333;
+  padding: 1rem;
+  font-size: 1.6rem;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  height: 5rem;
+}
+
+.column--1 {
+  background-color: lightpink;
+  width: 10rem;
+}
+
+.column--2 {
+  background-color: lightblue;
+  width: 20rem;
+}
+
+.row2 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.row2--item {
+  background-color: #000;
+  color: #fff;
+}

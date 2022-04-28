@@ -1,0 +1,39 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: inherit;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.6;
+  color: #333;
+  padding: 1rem;
+}
+
+.search__input {
+  display: block;
+  font-family: inherit;
+  font-size: 1.4rem;
+  padding: 1rem 2rem;
+  color: #999;
+  border: 1px solid rgb(211, 211, 211);
+  border-radius: 5px;
+  caret-color: rgb(211, 211, 211);
+}
+.search__input::-webkit-input-placeholder {
+  color: #bbb;
+}
+
+.search__input:focus {
+  outline: none;
+}

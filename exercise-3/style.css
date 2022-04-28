@@ -1,0 +1,241 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: inherit;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.6;
+  color: #333;
+  padding: 2rem;
+}
+
+.btn-uber {
+  border: none;
+  display: block;
+  background-color: #000;
+  color: #fff;
+  width: 13rem;
+  height: 3.6rem;
+  font-size: 1.5rem;
+  border-radius: 2px;
+  cursor: pointer;
+  transition: opacity 0.15s;
+}
+
+.btn-uber:hover {
+  opacity: 0.5;
+}
+
+.btn-uber:focus {
+  outline: none;
+}
+
+.btn-amazon {
+  border: none;
+  display: block;
+  background-color: rgb(255, 216, 20);
+  color: #000;
+  width: 20rem;
+  height: 3.6rem;
+  border-radius: 1.8rem;
+  font-size: 1.6rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.15s;
+}
+
+.btn-amazon:hover {
+  background-color: rgb(253, 224, 80);
+}
+
+.btn-amazon:focus {
+  outline: none;
+}
+
+.btn-github {
+  border: none;
+  display: block;
+  background-color: rgb(46, 164, 79);
+  color: #fff;
+  font-size: 1.6rem;
+  width: 10rem;
+  height: 3.6rem;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: box-shadow 0.15s;
+}
+
+.btn-github:hover {
+  box-shadow: 0.5rem 0.5rem 1rem rgba(0, 0, 0, 0.15);
+}
+
+.btn-github:focus {
+  outline: none;
+}
+
+.btn-bootstrap {
+  border: none;
+  display: inline-block;
+  font-size: 1.4rem;
+  font-weight: bold;
+  width: 13rem;
+  height: 4rem;
+  border-radius: 2px;
+  cursor: pointer;
+}
+
+.btn-bootstrap:not(:last-of-type) {
+  margin-right: 0.8rem;
+}
+
+.btn-bootstrap:focus {
+  outline: none;
+}
+
+.purple {
+  background-color: rgb(121, 82, 179);
+  color: #fff;
+  transition: all 0.15s;
+}
+
+.purple:hover {
+  background-color: #fff;
+  color: rgb(121, 82, 179);
+}
+
+.white {
+  background-color: rgb(108, 117, 125);
+  color: lightgray;
+  border: 1px solid #bbb;
+  transition: all 0.15s;
+}
+
+.white:hover {
+  background-color: lightgray;
+  color: rgb(108, 117, 125);
+}
+
+.btn__linkedin {
+  border: none;
+  display: inline-block;
+  font-size: 1.6rem;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.btn__linkedin:focus {
+  outline: none;
+}
+
+.btn__linkedin--1 {
+  width: 25rem;
+  height: 4rem;
+  background-color: rgb(10, 102, 194);
+  color: #fff;
+  margin-right: 0.8rem;
+  border-radius: 2rem;
+  transition: all 0.2s;
+}
+
+.btn__linkedin--1:hover {
+  background-color: #fff;
+  color: rgb(10, 102, 194);
+  border: 1px solid rgb(10, 102, 194);
+}
+
+.btn__linkedin--2 {
+  width: 8rem;
+  height: 4rem;
+  border: 1px solid rgb(10, 102, 194);
+  text-transform: capitalize;
+  background-color: #fff;
+  color: rgb(10, 102, 194);
+  border-radius: 2rem;
+  transition: all 0.15s;
+}
+
+.btn__linkedin--2:hover {
+  background-color: rgb(10, 102, 194);
+  color: #fff;
+  width: 10rem;
+}
+
+.amazon-container a:link,
+.amazon-container a:visited {
+  font-size: 1.6rem;
+}
+
+.paragraph-1 {
+  color: #000;
+  font-weight: 700;
+  font-size: 3rem;
+  margin: 2rem 0;
+}
+
+.paragraph-2 {
+  font-size: 1.7rem;
+  font-weight: 500;
+  color: rgb(0, 118, 0);
+  margin-bottom: 1rem;
+}
+
+.paragraph-3 {
+  font-size: 2.2rem;
+  margin-bottom: 1rem;
+}
+
+.btn-cart {
+  border: none;
+  display: inline-block;
+  background-color: rgb(255, 216, 20);
+  color: inherit;
+  width: 15rem;
+  height: 4rem;
+  border-radius: 2rem;
+  font-size: 1.8rem;
+  font-weight: 500;
+  margin-right: 1rem;
+  cursor: pointer;
+  transition: all 0.15s;
+}
+
+.btn-cart:hover {
+  opacity: 0.5;
+}
+
+.btn-cart:active {
+  opacity: 0.3;
+}
+
+.btn-buy {
+  border: none;
+  display: inline-block;
+  background-color: rgb(255, 164, 28);
+  color: inherit;
+  width: 15rem;
+  height: 4rem;
+  border-radius: 2rem;
+  font-size: 1.8rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.15s;
+}
+
+.btn-buy:hover {
+  opacity: 0.5;
+}
+
+.btn-buy:active {
+  opacity: 0.3;
+}

@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles/general.css" />
+    <link rel="stylesheet" href="styles/header.css" />
+    <link rel="stylesheet" href="styles/video.css" />
+    <title>Youtube.com Clone</title>
+  </head>
+  <body>
+    <div class="header">
+      <div class="left-section">
+        <img
+          class="hamburger-menu"
+          src="icons/hamburger-menu.svg"
+          alt="hamburger-menu"
+        />
+        <img
+          class="youtube-logo"
+          src="icons/youtube-logo.svg"
+          alt="youtube-logo"
+        />
+      </div>
+      <div class="middle-section">
+        <input class="search-bar" type="text" placeholder="Search" />
+        <button class="search-button">
+          <img class="search-icon" src="icons/search.svg" alt="search-icon" />
+          <div class="tooltip">Search</div>
+        </button>
+        <button class="voice-search-button">
+          <img
+            class="voice-search-icon"
+            src="icons/voice-search-icon.svg"
+            alt="voice-search-icon"
+          />
+          <div class="tooltip">Search with your voice</div>
+        </button>
+      </div>
+      <div class="right-section">
+        <div class="upload-icon-container">
+          <img class="upload-icon" src="icons/upload.svg" alt="upload-icon" />
+          <div class="tooltip">Create</div>
+        </div>
+        <div class="youtube-apps-icon-container">
+          <img
+            class="youtube-apps-icon"
+            src="icons/youtube-apps.svg"
+            alt="youtube-apps-icon"
+          />
+          <div class="tooltip">YouTube Apps</div>
+        </div>
+        <div class="notifications-icon-container">
+          <img
+            class="notifications-icon"
+            src="icons/notifications.svg"
+            alt="notifications-icon"
+          />
+          <div class="notifications-count">3</div>
+          <div class="tooltip">Notifications</div>
+        </div>
+        <div class="current-user-picture-container">
+          <img
+            class="current-user-picture"
+            src="channel-pictures/my-channel.jpeg"
+            alt="profile-picture"
+          />
+          <div class="tooltip">John Doe</div>
+        </div>
+      </div>
+    </div>
+
+    <section>
+      <main>
+        <div class="container">
+          <div class="left">
+            <div class="video-player-container">
+              <video
+                loop
+                controls
+                autoplay
+                src="https://www.youtube.com/watch?v=mNIcu00bciM"
+                class="video"
+              ></video>
+            </div>
+            <div class="video__info">
+              <h1 class="video__title">Redux</h1>
+              <div class="video-stats-container">
+                <p class="video__stats">5,955 views &#183; Mar 30, 2022</p>
+                <div class="video__stats--count">
+                  <div>16K</div>
+                  <div>Dislike</div>
+                  <div>Share</div>
+                  <div>Clip</div>
+                  <div>Save</div>
+                  <div>...</div>
+                </div>
+              </div>
+            </div>
+            <div class="line"></div>
+            <div class="authors-container">
+              <div class="authors-left">
+                <img
+                  class="authors-img"
+                  src="img/user.jpg"
+                  alt="authors image"
+                />
+                <div class="authors-name-container">
+                  <h2 class="authors-name">John Doe</h2>
+                  <p class="subscribers">941K subscribers</p>
+                </div>
+              </div>
+              <div class="authors-right">
+                <button class="btn-subscribe">Subscribe</button>
+              </div>
+            </div>
+            <div class="author-info-container">
+              <p class="author-text">
+                Project Based Web Development Courses -
+                <span>
+                  <a class="author-text-link" href="#">https://www.jdoe.com</a>
+                </span>
+              </p>
+              <button class="btn-show-more">Show more</button>
+            </div>
+            <div class="line"></div>
+            <div class="comment-container">
+              <div class="comment-counts">
+                <p>851 Comments</p>
+                <p>Sort by</p>
+              </div>
+              <div class="new-comment">
+                <div class="profile-container">
+                  <img
+                    class="profile-picture"
+                    src="channel-pictures/my-channel.jpeg"
+                    alt="profile-picture"
+                  />
+                  <textarea
+                    placeholder="Commenting as Mary Doe"
+                    class="comment-textbox"
+                  ></textarea>
+                </div>
+
+                <div class="agreement">
+                  <p class="agreement-text">
+                    By completing this action you are creating a
+                    <a class="agreement-link" href="#">channel</a> and agree to
+                    <a class="agreement-link" href="#">
+                      YouTube's Terms of Service </a
+                    >.
+                  </p>
+                  <div class="comment-button">
+                    <button class="btn-cancel">Cancel</button>
+                    <button class="btn-comment">Comment</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="comments--container">
+              <div class="comment-wrapper">
+                <img
+                  class="comment-img"
+                  src="channel-pictures/channel-1.jpeg"
+                  alt="profile-picture"
+                />
+                <div>
+                  <h3 class="comment-username">
+                    Alex Ciotor <span>8 days ago</span>
+                  </h3>
+                  <p class="comment-body">
+                    Always great and much-needed content! Lucky to have
+                    discovered John's Udemy courses and youtube channel on an
+                    early stage of learning. The content took me places!
+                  </p>
+                </div>
+              </div>
+              <div class="comment-wrapper">
+                <img
+                  class="comment-img"
+                  src="channel-pictures/channel-2.jpeg"
+                  alt="profile-picture"
+                />
+                <div>
+                  <h3 class="comment-username">
+                    Alberto P. Neto <span>10 days ago</span>
+                  </h3>
+                  <p class="comment-body">
+                    I've been thinking this was the missing part in your
+                    channel, and felt a bit right yesterday when I saw some
+                    comments asking for it. And you just made it Thanks for the
+                    way you teach, you are the first I feel obligated to buy
+                    Udemy courses, much more as a thank you. You are awesome.
+                    From Brazil
+                  </p>
+                </div>
+              </div>
+              <div class="comment-wrapper">
+                <img
+                  class="comment-img"
+                  src="channel-pictures/my-channel.jpeg"
+                  alt="profile-picture"
+                />
+                <div>
+                  <h3 class="comment-username">
+                    Arrfan Dannge <span>10 days ago</span>
+                  </h3>
+                  <p class="comment-body">
+                    Been learning through your React Course Video and now this
+                    came just in time. Thanks a lot!
+                  </p>
+                </div>
+              </div>
+              <div class="comment-wrapper">
+                <img
+                  class="comment-img"
+                  src="channel-pictures/channel-3.jpeg"
+                  alt="profile-picture"
+                />
+                <div>
+                  <h3 class="comment-username">
+                    Sachin Yadav <span>8 days ago</span>
+                  </h3>
+                  <p class="comment-body">
+                    This is part of John's udemy course and he is providing it
+                    for free. If anyone can purchase it please do, it will keep
+                    him motivated and provide much more valuable content. Really
+                    Appreciate it John 👍 I have purchased it and planning to
+                    take your MERN course as well.
+                  </p>
+                </div>
+              </div>
+              <div class="comment-wrapper">
+                <img
+                  class="comment-img"
+                  src="channel-pictures/channel-4.jpeg"
+                  alt="profile-picture"
+                />
+                <div>
+                  <h3 class="comment-username">
+                    Yasir Sheikh <span>10 days ago</span>
+                  </h3>
+                  <p class="comment-body">
+                    Is this fate or what!? I literally just navigated to Youtube
+                    looking for a course on Redux and your video was the first
+                    video on my feed without even searching!! Amazing stuff,
+                    love to hear the "What's up everybody" in the Intro, you're
+                    by far my favorite instructor. Thank you
+                  </p>
+                </div>
+              </div>
+              <div class="comment-wrapper">
+                <img
+                  class="comment-img"
+                  src="channel-pictures/channel-5.jpeg"
+                  alt="profile-picture"
+                />
+                <div>
+                  <h3 class="comment-username">
+                    the_paTiku <span>8 days ago</span>
+                  </h3>
+                  <p class="comment-body">
+                    we have use more and more redux in work and i finally start
+                    learning redux, but after few hours of learning on my own i
+                    decided to check your channel cuz you really helped me with
+                    understand react.
+                  </p>
+                </div>
+              </div>
+              <div class="comment-wrapper">
+                <img
+                  class="comment-img"
+                  src="channel-pictures/channel-6.jpeg"
+                  alt="profile-picture"
+                />
+                <div>
+                  <h3 class="comment-username">
+                    Itachi LOver <span>8 days ago</span>
+                  </h3>
+                  <p class="comment-body">
+                    Can't believe you just released this BOMB course when I was
+                    starting to learn Redux :)
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="right">
+            <div class="related-videos-container">
+              <div class="realted-videos-wrapper">
+                <div class="related-videos-left">
+                  <img src="thumbnails/thumbnail-1.webp" alt="video" />
+                </div>
+                <div class="related-videos-right">
+                  <h3 class="related-heading">
+                    Talking Tech and AI with Google CEO Sundar Pichai!
+                  </h3>
+                  <p class="related-author">Marques Brownlee</p>
+                  <p class="related-info">3.4M views &#183; 6 months ago</p>
+                </div>
+              </div>
+
+              <div class="realted-videos-wrapper">
+                <div class="related-videos-left">
+                  <img src="thumbnails/thumbnail-2.webp" alt="video" />
+                </div>
+                <div class="related-videos-right">
+                  <h3 class="related-heading">Try not to Laugh Challenge #9</h3>
+                  <p class="related-author">Markiplier</p>
+                  <p class="related-info">19M views &#183; 4 years ago</p>
+                </div>
+              </div>
+
+              <div class="realted-videos-wrapper">
+                <div class="related-videos-left">
+                  <img src="thumbnails/thumbnail-3.webp" alt="video" />
+                </div>
+                <div class="related-videos-right">
+                  <h3 class="related-heading">
+                    Crazy Tik Toks Taken Moments Before DISASTER
+                  </h3>
+                  <p class="related-author">SSSniperWolf</p>
+                  <p class="related-info">1.2M views &#183; 1 year ago</p>
+                </div>
+              </div>
+
+              <div class="realted-videos-wrapper">
+                <div class="related-videos-left">
+                  <img src="thumbnails/thumbnail-4.webp" alt="video" />
+                </div>
+                <div class="related-videos-right">
+                  <h3 class="related-heading">
+                    The Simplest Math Problem No One Can Solve - Collatz
+                    Conjecture
+                  </h3>
+                  <p class="related-author">Veritasium</p>
+                  <p class="related-info">18M views &#183; 4 months ago</p>
+                </div>
+              </div>
+
+              <div class="realted-videos-wrapper">
+                <div class="related-videos-left">
+                  <img src="thumbnails/thumbnail-5.webp" alt="video" />
+                </div>
+                <div class="related-videos-right">
+                  <h3 class="related-heading">
+                    Kadane's Algorithm to Maximum Sum Subarray Proble
+                  </h3>
+                  <p class="related-author">CS Dojo</p>
+                  <p class="related-info">519K views &#183; 5 years ago</p>
+                </div>
+              </div>
+
+              <div class="realted-videos-wrapper">
+                <div class="related-videos-left">
+                  <img src="thumbnails/thumbnail-6.webp" alt="video" />
+                </div>
+                <div class="related-videos-right">
+                  <h3 class="related-heading">
+                    Anything You Can Fit In The Circle I'll Pay For
+                  </h3>
+                  <p class="related-author">MrBeast</p>
+                  <p class="related-info">141M views &#183; 1 years ago</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
+    </section>
+  </body>
+</html>

@@ -1,0 +1,67 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: inherit;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  line-height: 1.6;
+  color: #333;
+}
+
+.video-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 1.6rem;
+  row-gap: 4rem;
+}
+
+.thumbnail-row {
+  margin-bottom: 1.2rem;
+}
+
+.thumbnail {
+  width: 100%;
+}
+
+.video-info-grid {
+  display: grid;
+  grid-template-columns: 5rem 1fr;
+}
+
+.profile-picture {
+  width: 4rem;
+  border-radius: 50%;
+}
+
+.search-bar {
+  display: block;
+}
+
+.video-title {
+  margin-top: 0;
+  font-size: 1.4rem;
+  font-weight: 500;
+  line-height: 2rem;
+  margin-bottom: 1.2rem;
+}
+
+.video-author,
+.video-stats {
+  font-size: 1.2rem;
+  color: rgb(96, 96, 96);
+}
+
+.video-author {
+  margin-bottom: 0.4rem;
+}

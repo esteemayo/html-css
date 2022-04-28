@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="instagram.css" />
+    <title>Instagram</title>
+  </head>
+  <body>
+    <section>
+      <main>
+        <article class="wrapper">
+          <div class="left">
+            <div class="img-container">
+              <img class="img--1" src="img/insta4.png" alt="" />
+              <img class="img--2" src="img/insta1.png" alt="" />
+            </div>
+          </div>
+          <div class="right">
+            <div class="container">
+              <div>
+                <div class="instagram-logo-container">
+                  <img
+                    class="instagram-logo"
+                    src="icons/insta-logo.png"
+                    alt="instagram logo"
+                  />
+                </div>
+                <div>
+                  <form class="form">
+                    <div class="form__group">
+                      <input
+                        type="text"
+                        placeholder="Phone number, username or email"
+                        class="form__input"
+                      />
+                    </div>
+                    <div class="form__group">
+                      <input
+                        type="password"
+                        placeholder="Password"
+                        class="form__input"
+                      />
+                    </div>
+                    <div class="form__button">
+                      <button class="btn__form">Log in</button>
+                    </div>
+                    <div class="or-container">
+                      <div class="or">or</div>
+                    </div>
+                    <div class="facebook-login">
+                      <button class="btn__facebook">
+                        Log in with Facebook
+                      </button>
+                    </div>
+                    <div class="forgot-link-container">
+                      <a href="#" class="forgot__link">Forgot password?</a>
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+            <div class="signup-container">
+              <div class="signup-wrapper">
+                <p>Don't have an account?</p>
+                <span>
+                  <a href="#">Sign up</a>
+                </span>
+              </div>
+            </div>
+            <div class="store-container">
+              <p>Get the app.</p>
+              <div>
+                <a class="app-store-link" href="#">
+                  <img
+                    class="app-store-icon"
+                    src="icons/app-store.png"
+                    alt="app-store"
+                  />
+                </a>
+                <a class="google-play-link" href="#">
+                  <img
+                    class="google-play-icon"
+                    src="icons/google-play.png"
+                    alt="google-play"
+                  />
+                </a>
+              </div>
+            </div>
+          </div>
+        </article>
+      </main>
+
+      <footer class="footer">
+        <div class="footer-container">
+          <div class="footer-wrapper">
+            <ul class="footer-list">
+              <li class="footer-list-item"><a href="#">Meta</a></li>
+              <li class="footer-list-item"><a href="#">About</a></li>
+              <li class="footer-list-item"><a href="#">Blog</a></li>
+              <li class="footer-list-item"><a href="#">Jobs</a></li>
+              <li class="footer-list-item"><a href="#">Help</a></li>
+              <li class="footer-list-item"><a href="#">API</a></li>
+              <li class="footer-list-item"><a href="#">Privacy</a></li>
+              <li class="footer-list-item"><a href="#">Terms</a></li>
+              <li class="footer-list-item"><a href="#">Top Accounts</a></li>
+              <li class="footer-list-item"><a href="#">Hashtags</a></li>
+              <li class="footer-list-item"><a href="#">Locations</a></li>
+              <li class="footer-list-item"><a href="#">Instagram Lite</a></li>
+              <li class="footer-list-item"><a href="#">Dance</a></li>
+              <li class="footer-list-item"><a href="#">Food & Drink</a></li>
+              <li class="footer-list-item"><a href="#">Home & Garden</a></li>
+              <li class="footer-list-item"><a href="#">Music</a></li>
+              <li class="footer-list-item"><a href="#">Visual Arts</a></li>
+            </ul>
+
+            <div class="copyright-container">
+              <p class="copyright">
+                &copy; <span class="copyright-year"></span> Instagram from Meta
+              </p>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </section>
+
+    <script>
+      const date = new Date();
+      const year = date.getFullYear();
+
+      document.querySelector('.copyright-year').innerHTML = year;
+    </script>
+  </body>
+</html>

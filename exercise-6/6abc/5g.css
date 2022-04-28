@@ -1,0 +1,49 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: inherit;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  line-height: 1.6;
+  color: #333;
+  padding: 1rem;
+}
+
+.twitter-container {
+  font-family: Arial;
+  width: 60rem;
+}
+
+.twitter__handle {
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+
+.twitter__handle span {
+  color: rgb(211, 211, 211);
+  font-weight: normal;
+}
+
+.twitter__desc {
+  font-size: 1.8rem;
+  margin-bottom: 1.5rem;
+}
+
+.twitter__content {
+  font-size: 1.8rem;
+}
+
+.twitter__content span {
+  color: rgb(0, 0, 255);
+}

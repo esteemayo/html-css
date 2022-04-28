@@ -1,0 +1,77 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: inherit;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial;
+  line-height: 1.6;
+  color: #333;
+  font-size: 1.6rem;
+}
+
+.header {
+  background-color: rgb(120, 82, 178);
+  color: #fff;
+  padding: 0 1.5rem;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.home-link {
+  font-weight: bold;
+}
+
+.search-input {
+  border: none;
+  width: 50rem;
+  height: 3rem;
+  margin: 1.2rem 0;
+  border-radius: 1.5rem;
+  padding-left: 2rem;
+  caret-color: rgb(120, 82, 178);
+}
+
+.search-input::-webkit-input-placeholder {
+  color: #bbb;
+}
+
+.search-input:focus {
+  outline: none;
+}
+
+button {
+  display: block;
+  font-size: 1.6rem;
+  padding: 0.8rem 1.5rem;
+  background-color: rgb(120, 82, 178);
+  color: #fff;
+  border: 1px solid #fff;
+  border-radius: 2px;
+  cursor: pointer;
+}
+
+button:hover {
+  opacity: 0.7;
+}
+
+button:active {
+  opacity: 0.4;
+}
+
+button:focus {
+  outline: none;
+}

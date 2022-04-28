@@ -1,0 +1,64 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: inherit;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  line-height: 1.6;
+  color: #333;
+  padding: 1rem;
+}
+
+.book-container {
+  font-family: Arial;
+  text-align: center;
+  width: 40rem;
+}
+
+.book__tag {
+  font-size: 1.4rem;
+  font-weight: bold;
+  color: rgb(255, 165, 0);
+}
+
+.book__header {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.book__desc {
+  font-size: 3.6rem;
+  font-weight: bold;
+}
+
+.apple__price {
+  font-size: 1.6rem;
+  font-weight: 500;
+}
+
+.btn__book {
+  border: none;
+  display: inline-block;
+  background-color: rgb(0, 0, 255);
+  color: #fff;
+  padding: 1rem 2rem;
+  border-radius: 10rem;
+  font-size: 1.5rem;
+  margin-top: 1rem;
+  cursor: pointer;
+}
+
+.btn__book:focus {
+  outline: none;
+}

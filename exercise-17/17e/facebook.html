@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="facebook.css" />
+    <title>Facebook - log in or sign up</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="left">
+        <div class="wrapper">
+          <img class="facebook-logo" src="icons/facebook-logo.svg" alt="" />
+          <h2 class="heading">
+            Facebook helps you connect and share with the people in your life.
+          </h2>
+        </div>
+      </div>
+      <div class="right">
+        <div class="form-container">
+          <form class="form">
+            <div class="form-group">
+              <input
+                type="email"
+                placeholder="Email address or phone number"
+                class="form-input"
+              />
+            </div>
+            <div class="form-group">
+              <input
+                type="password"
+                placeholder="Password"
+                class="form-input"
+              />
+            </div>
+            <button class="btn-login">Log in</button>
+            <div class="forgot-password">
+              <a href="#">Forgotten password?</a>
+            </div>
+            <div class="line"></div>
+            <div class="create-new-account-container">
+              <button class="btn-create-new-account">Create new account</button>
+            </div>
+          </form>
+
+          <div class="text">
+            <a href="#">Create a Page</a> for a celebrity, brand or business.
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer class="footer">
+      <div class="languages">
+        <ul class="footer__lists">
+          <li class="footer__list-item">English (UK)</li>
+          <li class="footer__list-item"><a href="#">Hausa</a></li>
+          <li class="footer__list-item"><a href="#">Français (France) </a></li>
+          <li class="footer__list-item"><a href="#">Português (Brasil) </a></li>
+          <li class="footer__list-item"><a href="#">Español</a></li>
+          <li class="footer__list-item"><a href="#">العربية</a></li>
+          <li class="footer__list-item"><a href="#">Bahasa Indonesia</a></li>
+          <li class="footer__list-item"><a href="#">Deutsch </a></li>
+          <li class="footer__list-item"><a href="#">日本語</a></li>
+          <li class="footer__list-item"><a href="#">Italiano</a></li>
+          <li class="footer__list-item"><a href="#">हिन्दी</a></li>
+          <li class="footer__list-item">
+            <a href="#"><button class="btn-footer">+</button></a>
+          </li>
+        </ul>
+        <div class="footer-line"></div>
+        <div class="links__container">
+          <ul class="links__list">
+            <li class="links__list-item"><a href="#">Sign Up</a></li>
+            <li class="links__list-item"><a href="#">Log In</a></li>
+            <li class="links__list-item"><a href="#">Messenger</a></li>
+            <li class="links__list-item"><a href="#">Facebook Lite</a></li>
+            <li class="links__list-item"><a href="#">Watch</a></li>
+            <li class="links__list-item"><a href="#">Places</a></li>
+            <li class="links__list-item"><a href="#">Games</a></li>
+            <li class="links__list-item"><a href="#">Marketplace</a></li>
+            <li class="links__list-item"><a href="#">Facebook Pay</a></li>
+            <li class="links__list-item"><a href="#">Oculus</a></li>
+            <li class="links__list-item"><a href="#">Portal</a></li>
+            <li class="links__list-item"><a href="#">Instagram</a></li>
+            <li class="links__list-item"><a href="#">Bulletin</a></li>
+            <li class="links__list-item"><a href="#">Local</a></li>
+            <li class="links__list-item"><a href="#">Fundraisers</a></li>
+            <li class="links__list-item"><a href="#">Services</a></li>
+            <li class="links__list-item">
+              <a href="#">Voting Information Centre</a>
+            </li>
+            <li class="links__list-item"><a href="#">Groups</a></li>
+            <li class="links__list-item"><a href="#">About</a></li>
+            <li class="links__list-item"><a href="#">Create ad</a></li>
+            <li class="links__list-item"><a href="#">Create Page</a></li>
+            <li class="links__list-item"><a href="#">Developers</a></li>
+            <li class="links__list-item"><a href="#">Careers</a></li>
+            <li class="links__list-item"><a href="#">Privacy</a></li>
+            <li class="links__list-item"><a href="#">Cookies</a></li>
+            <li class="links__list-item"><a href="#">AdChoices</a></li>
+            <li class="links__list-item"><a href="#">Terms</a></li>
+            <li class="links__list-item"><a href="#">Help</a></li>
+          </ul>
+        </div>
+        <div class="footer__copyright">
+          <p class="copyright">
+            Meta &copy; <span class="copyright__year"></span>
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <script>
+      const year = new Date().getFullYear();
+      document.querySelector('.copyright__year').textContent = year;
+    </script>
+  </body>
+</html>

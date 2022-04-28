@@ -1,0 +1,84 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: inherit;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.6;
+  color: #333;
+  font-size: 1.6rem;
+  height: 300rem;
+  padding-top: 6rem;
+  padding-left: 8rem;
+}
+
+.header {
+  background-color: #000;
+  color: #fff;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 5rem;
+  z-index: 10;
+}
+
+.box-1 {
+  background-color: lightblue;
+  width: 20rem;
+  height: 20rem;
+  position: static;
+  margin-top: 6rem;
+}
+
+.box-2 {
+  background-color: lightpink;
+  width: 20rem;
+  height: 20rem;
+  position: relative;
+}
+
+.sidebar {
+  background-color: green;
+  color: #fff;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  top: 5rem;
+  width: 7.2rem;
+}
+
+.absolute {
+  position: absolute;
+  background-color: #f00;
+  color: #fff;
+  right: 1rem;
+  top: 6rem;
+}
+
+.absolute--2 {
+  position: absolute;
+  background-color: #f00;
+  color: #fff;
+  top: 0;
+  right: 0;
+}
+
+.absolute--3 {
+  position: absolute;
+  background-color: #000;
+  color: #fff;
+  bottom: 1rem;
+  right: 1rem;
+}

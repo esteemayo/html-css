@@ -1,0 +1,41 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: inherit;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  line-height: 1.6;
+  color: #333;
+  padding: 3rem;
+  font-size: 1.6rem;
+}
+
+.container {
+  display: flex;
+}
+
+.box-1 {
+  background-color: lightblue;
+  width: 5rem;
+}
+
+.box-2 {
+  background-color: lightpink;
+  flex: 1;
+}
+
+.box-3 {
+  background-color: lightblue;
+  width: 7.5rem;
+}

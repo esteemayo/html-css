@@ -1,0 +1,78 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: inherit;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.6;
+  padding: 1rem;
+  color: #333;
+}
+
+p {
+  font-size: 4rem;
+  font-weight: bold;
+  margin-bottom: 2rem;
+}
+
+input {
+  display: block;
+  border: none;
+  padding: 1.5rem 2rem;
+  width: 40rem;
+  background-color: #f9f9f9;
+  color: #999;
+  font-size: 1.4rem;
+  font-family: inherit;
+  border-radius: 3px;
+  margin-bottom: 1rem;
+}
+
+input::-webkit-input-placeholder {
+  color: #bbb;
+}
+
+input:focus {
+  outline: none;
+}
+
+button {
+  border: none;
+  display: inline-block;
+  padding: 1.5rem 3rem;
+  font-size: 1.5rem;
+  font-weight: 500;
+  border-radius: 3px;
+  cursor: pointer;
+  margin-top: 2rem;
+  vertical-align: middle;
+}
+
+.btn-request {
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+  margin-right: 2rem;
+}
+
+.btn-request:focus {
+  outline: none;
+}
+
+.btn-schedule {
+  color: rgb(0, 0, 0);
+}
+
+.btn-schedule:focus {
+  outline: none;
+}

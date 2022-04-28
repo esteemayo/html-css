@@ -1,0 +1,85 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: inherit;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial;
+  line-height: 1.6;
+  color: #333;
+}
+
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.profile {
+  width: 20rem;
+  box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.3);
+  display: inline-block;
+  vertical-align: top;
+  margin-right: 1.5rem;
+}
+
+.profile-picture {
+  width: 20rem;
+  height: 20rem;
+  object-fit: cover;
+  margin-bottom: 1.2rem;
+}
+
+.name {
+  font-size: 1.8rem;
+  font-weight: bold;
+  margin-left: 0.8rem;
+  margin-bottom: 0.5rem;
+}
+
+.mutual-friends-row {
+  margin-left: 0.8rem;
+  margin-bottom: 1rem;
+}
+
+.mutual-friend-picture {
+  height: 2.8rem;
+  width: 2.8rem;
+  object-fit: cover;
+  border-radius: 1.4rem;
+  vertical-align: middle;
+  margin-right: 0.4rem;
+}
+
+.mutual-friends {
+  display: inline-block;
+  vertical-align: middle;
+  color: rgb(100, 100, 100);
+  font-size: 1.4rem;
+}
+
+.add-friend-button {
+  border: none;
+  display: inline-block;
+  background-color: rgb(24, 119, 242);
+  color: #fff;
+  padding: 1rem 2rem;
+  border-radius: 0.4rem;
+  font-size: 1.6rem;
+  margin-left: 0.8rem;
+  margin-bottom: 1rem;
+  cursor: pointer;
+}
+
+.add-friend-button:focus {
+  outline: none;
+}

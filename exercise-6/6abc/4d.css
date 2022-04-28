@@ -1,0 +1,62 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: inherit;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  line-height: 1.6;
+  color: #333;
+  padding: 2rem;
+}
+
+.btn-bootstrap {
+  border: none;
+  display: inline-block;
+  font-size: 1.4rem;
+  font-weight: bold;
+  padding: 1rem 1.6rem;
+  border-radius: 2px;
+  cursor: pointer;
+}
+
+.btn-bootstrap:not(:last-of-type) {
+  margin-right: 0.8rem;
+}
+
+.btn-bootstrap:focus {
+  outline: none;
+}
+
+.purple {
+  background-color: rgb(121, 82, 179);
+  color: #fff;
+  transition: all 0.15s;
+}
+
+.purple:hover {
+  background-color: #fff;
+  color: rgb(121, 82, 179);
+}
+
+.white {
+  background-color: rgb(108, 117, 125);
+  color: lightgray;
+  border: 1px solid #bbb;
+  transition: all 0.15s;
+}
+
+.white:hover {
+  background-color: lightgray;
+  color: rgb(108, 117, 125);
+}

@@ -1,0 +1,91 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: inherit;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial;
+  line-height: 1.6;
+  color: #333;
+  font-size: 1.3rem;
+}
+
+.tweet {
+  display: flex;
+  width: 42rem;
+  margin-top: 1rem;
+  margin-left: 2rem;
+}
+
+.profile-picture-column {
+  margin-right: 1rem;
+}
+
+.profile-picture {
+  width: 6rem;
+  height: 6rem;
+  object-fit: cover;
+  border-radius: 3rem;
+}
+
+.tweet-column {
+  flex: 1;
+}
+
+.tweet-header {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 0.5rem;
+}
+
+.tweet-author {
+  font-weight: bold;
+  margin-right: 0.5rem;
+}
+
+.tweet-author-handle {
+  color: rgb(111, 111, 111);
+}
+
+.tweet-content {
+  line-height: 2rem;
+  margin-bottom: 1.5rem;
+}
+
+.video-preview {
+  display: flex;
+  align-items: center;
+  border: 1px solid rgb(200, 200, 200);
+  border-radius: 1.5rem;
+  overflow: hidden;
+}
+
+.thumbnail-column {
+  width: 100px;
+  height: 100px;
+  background-color: rgb(220, 220, 220);
+  margin-right: 1rem;
+}
+
+.video-info-column {
+  flex: 1;
+}
+
+.video-website {
+  color: rgb(111, 111, 111);
+  margin-bottom: 3px;
+}
+
+.video-title {
+  line-height: 2.2rem;
+}

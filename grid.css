@@ -1,0 +1,65 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: inherit;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  line-height: 1.6;
+  color: #333;
+}
+
+.container {
+  margin-top: 2rem;
+  display: grid;
+  grid-template-columns: 10rem 10rem;
+}
+
+.box-1 {
+  background-color: lightblue;
+}
+
+.box-2 {
+  background-color: lightpink;
+}
+
+.box-3 {
+  background-color: lightcoral;
+}
+
+.container-2 {
+  margin-top: 2rem;
+  display: grid;
+  grid-template-columns: 10rem 10rem 20rem;
+}
+
+.container-3 {
+  margin-top: 2rem;
+  display: grid;
+  grid-template-columns: 10rem 1fr;
+}
+
+.container-4 {
+  margin-top: 2rem;
+  display: grid;
+  grid-template-columns: 10rem 1fr 2fr;
+}
+
+.container-5 {
+  margin-top: 2rem;
+  height: 20rem;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 2rem;
+  row-gap: 4rem;
+}

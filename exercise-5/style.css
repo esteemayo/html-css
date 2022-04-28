@@ -1,0 +1,202 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: inherit;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.6;
+  color: #333;
+  padding: 1rem;
+}
+
+.text-font {
+  font-family: Tahoma;
+  font-weight: bold;
+  font-size: 1.6rem;
+}
+
+.text-deal {
+  font-family: Arial;
+  font-weight: bold;
+  font-size: 2.6rem;
+}
+
+.text-date {
+  font-size: 2rem;
+  font-style: italic;
+  color: rgb(255, 0, 0);
+}
+
+.text__container {
+  font-family: Verdana;
+}
+
+.text__header {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.text__status {
+  font-size: 1.8rem;
+  color: rgb(211, 211, 211);
+  margin-bottom: 1rem;
+}
+
+.text__description {
+  width: 32rem;
+  font-size: 1.8rem;
+  margin-bottom: 1.5rem;
+}
+
+.btn__text {
+  display: block;
+  border: none;
+  text-transform: capitalize;
+  background-color: rgb(0, 128, 0);
+  color: #fff;
+  padding: 1rem 3rem;
+  font-size: 1.8rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
+}
+
+.btn__text:focus {
+  outline: none;
+}
+
+.apple-container {
+  font-family: Arial;
+  text-align: center;
+  width: 40rem;
+}
+
+.apple__header {
+  font-size: 2.8rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.apple__desc {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+}
+
+.apple__link {
+  font-size: 1.6rem;
+  color: rgb(0, 0, 255);
+}
+
+.book-container {
+  font-family: Arial;
+  text-align: center;
+  width: 40rem;
+}
+
+.book__tag {
+  font-size: 1.4rem;
+  font-weight: bold;
+  color: rgb(255, 165, 0);
+}
+
+.book__header {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.book__desc {
+  font-size: 3.6rem;
+  font-weight: bold;
+}
+
+.apple__price {
+  font-size: 1.6rem;
+  font-weight: 500;
+}
+
+.btn__book {
+  border: none;
+  display: inline-block;
+  background-color: rgb(0, 0, 255);
+  color: #fff;
+  padding: 1rem 2rem;
+  border-radius: 10rem;
+  font-size: 1.5rem;
+  margin-top: 1rem;
+  cursor: pointer;
+}
+
+.btn__book:focus {
+  outline: none;
+}
+
+.money-container {
+  font-family: Arial;
+}
+
+.money__value {
+  font-size: 3rem;
+  font-weight: bold;
+  letter-spacing: 3px;
+}
+
+.money__value span {
+  color: rgb(211, 211, 211);
+  text-transform: uppercase;
+  font-size: 1.8rem;
+  font-weight: normal;
+}
+
+.money__percentage {
+  color: rgb(0, 128, 0);
+  font-size: 1.8rem;
+  font-weight: 500;
+}
+
+.money__time {
+  color: rgb(211, 211, 211);
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+.money__time span {
+  color: rgb(255, 0, 0);
+}
+
+.twitter-container {
+  font-family: Arial;
+  width: 60rem;
+}
+
+.twitter__handle {
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+
+.twitter__handle span {
+  color: rgb(211, 211, 211);
+  font-weight: normal;
+}
+
+.twitter__desc {
+  font-size: 1.8rem;
+  margin-bottom: 1.5rem;
+}
+
+.twitter__content {
+  font-size: 1.8rem;
+}
+
+.twitter__content span {
+  color: rgb(0, 0, 255);
+}

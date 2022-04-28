@@ -1,0 +1,304 @@
+:root {
+  --main-color: #0095f6;
+  --color-white: rgb(255, 255, 255);
+}
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: inherit;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.4rem;
+  background-color: rgb(250, 250, 250);
+  color: rgb(38, 38, 38);
+  line-height: 1.8rem;
+}
+
+.wrapper {
+  display: flex;
+}
+
+.left {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.img-container {
+  padding: 3rem;
+  padding-right: 0;
+  position: relative;
+}
+
+.img--2 {
+  position: absolute;
+  left: 38%;
+  top: 7.5%;
+}
+
+.right {
+  flex: 1;
+  margin-top: 4rem;
+  flex-grow: 1;
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.container {
+  background-color: var(--color-white);
+  width: 35rem;
+  padding: 8rem 4rem;
+  padding-bottom: 1rem;
+  border: 1px solid rgb(219, 219, 219);
+  margin: 0 0 1rem;
+  border-radius: 2px;
+}
+
+.instagram-logo-container {
+  text-align: center;
+  margin-bottom: 3rem;
+  margin-top: -3rem;
+}
+
+.instagram-logo {
+  cursor: pointer;
+}
+
+.form__group:not(:last-of-type) {
+  margin-bottom: 1rem;
+}
+
+.form__input {
+  border: none;
+  display: inline-block;
+  font-size: 1.6rem;
+  font-family: inherit;
+  width: 100%;
+  padding: 1rem;
+  padding: 9px 0 7px 8px;
+  background-color: rgb(250, 250, 250);
+  color: #999;
+  border: 1px solid lightgray;
+  border-radius: 3px;
+  caret-color: var(--main-color);
+  transition: all 0.2s ease;
+}
+
+.form__input::-webkit-input-placeholder {
+  color: #bbb;
+  font-size: 1.2rem;
+}
+
+.form__input:focus {
+  outline: none;
+  border: 1px solid rgb(38, 38, 38);
+}
+
+.form__button {
+  margin-top: 1.5rem;
+}
+
+.btn__form {
+  border: none;
+  display: inline-block;
+  background-color: rgb(178, 223, 252);
+  color: var(--color-white);
+  border: 1px solid transparent;
+  width: 100%;
+  padding: 7px 5px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn__form:focus {
+  outline: none;
+}
+
+.or-container {
+  margin-top: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.or {
+  display: flex;
+  align-items: center;
+  font-size: 1.4rem;
+  text-transform: uppercase;
+  color: gray;
+}
+
+.or::before,
+.or::after {
+  content: '';
+  display: block;
+  height: 1.2px;
+  width: 30rem;
+  background-color: rgba(214, 217, 219, 0.548);
+}
+
+.or::before {
+  margin-right: 2rem;
+}
+
+.or::after {
+  margin-left: 2rem;
+}
+
+.facebook-login {
+  margin-top: 3rem;
+  text-align: center;
+}
+
+.btn__facebook {
+  border: none;
+  display: inline-block;
+  background-color: transparent;
+  color: rgb(56, 81, 133);
+  text-shadow: none;
+  text-transform: inherit;
+  padding: 5px 9px;
+  font-size: 1.4rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.btn__facebook:focus {
+  outline: none;
+}
+
+.forgot-link-container {
+  text-align: center;
+}
+
+.forgot__link:link,
+.forgot__link:visited {
+  display: inline-block;
+  text-decoration: none;
+  color: rgb(56, 81, 133);
+  margin-top: 2rem;
+  font-size: 1.2rem;
+}
+
+.signup-container {
+  width: 35rem;
+  background-color: var(--color-white);
+  border: 1px solid rgb(219, 219, 219);
+  border-radius: 1px;
+  margin: 0 0 1rem;
+  padding: 1rem 0;
+}
+
+.signup-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.signup-wrapper p {
+  color: #262626;
+  font-size: 1.4rem;
+  margin: 1.5rem;
+  margin-right: 3px;
+  text-align: center;
+}
+
+.signup-wrapper a:link,
+.signup-wrapper a:visited {
+  text-decoration: none;
+  color: var(--main-color);
+  font-size: 1.4rem;
+  font-weight: 600;
+  line-height: 1.8rem;
+}
+
+.store-container {
+  width: 35rem;
+  margin-top: 1.5rem;
+  text-align: center;
+}
+
+.store-container p {
+  color: #262626;
+  margin-bottom: 2rem;
+}
+
+.app-store-link,
+.google-play-link {
+  text-decoration: none;
+  display: inline-block;
+}
+
+.app-store-icon,
+.google-play-icon {
+  height: 4rem;
+}
+
+.app-store-icon {
+  margin-right: 0.5rem;
+}
+
+.footer {
+  padding: 0 1.6rem;
+  background-color: inherit;
+  text-align: center;
+  color: gray;
+  text-align: center;
+}
+
+.footer-container {
+  margin-bottom: 5.2rem;
+  font-size: 1.2rem;
+}
+
+.footer-wrapper {
+  margin-top: 2.4rem;
+}
+
+.footer-list {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-list-item {
+  color: inherit;
+  margin-right: 1rem;
+  font-size: 1.2rem;
+}
+
+.footer-list-item a:link,
+.footer-list-item a:visited {
+  text-decoration: none;
+  color: inherit;
+}
+
+.copyright-container {
+  margin-top: 2rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.copyright {
+  margin-left: 2rem;
+}

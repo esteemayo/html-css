@@ -1,0 +1,13 @@
+@media only screen and (min-width: 62.5em) {
+  .video-title {
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+  }
+}
+
+@media only screen and (min-width: 62.5em) {
+  .video-author,
+  .video-stats {
+    font-size: 1.4rem;
+  }
+}

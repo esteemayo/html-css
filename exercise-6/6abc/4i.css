@@ -1,0 +1,42 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: inherit;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  line-height: 1.6;
+  color: #333;
+  padding: 2rem;
+}
+
+.btn-stretch {
+  border: none;
+  display: inline-block;
+  background-color: rgb(3, 121, 3);
+  color: #fff;
+  padding: 0.8rem 1.5rem;
+  font-size: 1.8rem;
+  border-radius: 2px;
+  vertical-align: top;
+  cursor: pointer;
+  transition: all 1s ease;
+}
+
+.btn-stretch:hover {
+  padding: 1.8rem 3.6rem;
+}
+
+.btn-stretch:focus {
+  outline: none;
+}

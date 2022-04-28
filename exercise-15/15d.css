@@ -1,0 +1,65 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: inherit;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial;
+  line-height: 1.6;
+  color: #333;
+  font-size: 1.6rem;
+}
+
+.wrapper {
+  width: 32rem;
+  height: 18rem;
+  background-color: rgb(128, 128, 128);
+  position: fixed;
+  bottom: 1rem;
+  right: 1rem;
+}
+
+.container {
+  position: relative;
+}
+
+.btn-close {
+  border: none;
+  display: inline-block;
+  width: 4.5rem;
+  height: 4.5rem;
+  font-weight: bold;
+  border-radius: 2.25rem;
+  background-color: #000;
+  color: #fff;
+  cursor: pointer;
+  position: absolute;
+  top: -2rem;
+  left: -2rem;
+}
+
+.btn-close:focus {
+  outline: none;
+}
+
+.video-time {
+  position: absolute;
+  font-weight: 500;
+  font-size: 1.4rem;
+  background-color: #000;
+  color: #fff;
+  padding: 0.5rem 1rem;
+  border-radius: 2px;
+  bottom: 1rem;
+  right: 1rem;
+}
